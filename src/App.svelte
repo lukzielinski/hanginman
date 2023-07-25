@@ -2,6 +2,7 @@
     import Router from 'svelte-spa-router'
 
     const routes = {}
+    const unusedItem = 0
 </script>
 
 <svelte:head>

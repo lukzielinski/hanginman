@@ -28,7 +28,6 @@
         touch-action: manipulation;
         word-break: break-word;
         border: 0;
-        margin: 20px;
     }
     .button-34:hover {
         background: #4c4bef;

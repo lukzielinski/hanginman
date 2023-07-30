@@ -1,4 +1,6 @@
 <script lang="ts">
+    import Menu from './views/Menu.svelte'
+
     const routes = {}
 </script>
 
@@ -9,32 +11,24 @@
 
 <main>
     <!-- <Router {routes} /> -->
-    <!-- <Menu /> -->
+    <Menu />
 </main>
 
 <style lang="less">
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
     /* Wszystkie elementy na stronie będą zajmować 100vh */
     * {
-        box-sizing: border-box;
-        height: 100vh;
         margin: 0;
         padding: 0;
+        box-sizing: border-box !important;
     }
     main {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
         margin: 0 auto;
-        border: 10px solid red;
+        height: 100vh;
+        box-sizing: border-box !important;
     }
     :global(:root) {
         margin: 0;
